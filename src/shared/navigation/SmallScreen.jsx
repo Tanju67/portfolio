@@ -14,7 +14,7 @@ function SmallScreen({ showModal }) {
       <li onClick={() => showModal(false)} className={styles.about}>
         <NavLink
           className={({ isActive }) => (isActive ? styles.active : "")}
-          to={"/about"}
+          to={`/about?lan=${selectedLan}`}
         >
           {data[0]}
         </NavLink>
@@ -23,7 +23,7 @@ function SmallScreen({ showModal }) {
       <li onClick={() => showModal(false)} className={styles.project}>
         <NavLink
           className={({ isActive }) => (isActive ? styles.active : "")}
-          to={"/projects"}
+          to={`/projects?lan=${selectedLan}`}
         >
           {data[1]}
         </NavLink>
@@ -32,7 +32,7 @@ function SmallScreen({ showModal }) {
       <li onClick={() => showModal(false)} className={styles.contact}>
         <NavLink
           className={({ isActive }) => (isActive ? styles.active : "")}
-          to={"/contact"}
+          to={`/contact?lan=${selectedLan}`}
         >
           {data[2]}
         </NavLink>
