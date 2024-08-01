@@ -16,3 +16,15 @@
     padding: 2rem 6rem;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .nav {
+    padding: 2rem 3rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .nav {
+    padding: 2rem 2rem;
+  }
+}

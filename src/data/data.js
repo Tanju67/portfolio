@@ -213,7 +213,7 @@ export const aboutPageData = {
   },
 
   title: {
-    english: `I'm Tanju, a self-taught web developer who is currently living in germany.`,
+    english: `I'm Tanju, a self-taught web developer who is currently living in Germany.`,
     german:
       "Ich bin Tanju, ein autodidaktischer Webentwickler, der derzeit in Deutschland lebt.",
   },
