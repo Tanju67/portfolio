@@ -1,0 +1,44 @@
+.footer {
+  height: 20rem;
+  padding: 10rem 0;
+  border-top: 1px solid #222;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--clr-text-secondary);
+  gap: 1rem;
+}
+
+.navMenu {
+  display: flex;
+  gap: 2rem;
+}
+
+.navMenu a {
+  color: var(--clr-text-secondary);
+  transition: all 0.3s;
+}
+
+.navMenu a:hover {
+  color: var(--clr-primary);
+}
+
+.copyright {
+  font-size: 1.2rem;
+}
+
+.socialIcons {
+  display: flex;
+  gap: 2rem;
+}
+
+.socialIcons svg {
+  font-size: 3rem;
+  color: var(--clr-text-secondary);
+  transition: all 0.3s;
+}
+
+.socialIcons svg:hover {
+  color: var(--clr-primary);
+}

@@ -1,0 +1,42 @@
+.navMenu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.8rem;
+  padding: 1rem 3rem;
+}
+
+.navMenu a {
+  color: #fff;
+  transition: all 0.3s;
+}
+.navMenu li {
+  padding: 1rem;
+}
+
+a.active {
+  color: var(--clr-primary);
+}
+
+.navMenu li:hover a {
+  color: var(--clr-primary);
+}
+
+.menuIcon {
+  display: none;
+}
+.menuIcon svg {
+  font-size: 4rem;
+}
+
+@media only screen and (max-width: 800px) {
+  .menuIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  .navMenu {
+    display: none;
+  }
+}

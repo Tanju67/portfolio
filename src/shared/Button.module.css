@@ -1,0 +1,11 @@
+.btn {
+  background-color: var(--clr-primary);
+  padding: 1rem 2rem;
+  color: #000;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  background-color: var(--clr-primary-shade);
+}

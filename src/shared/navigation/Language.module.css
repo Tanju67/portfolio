@@ -1,0 +1,35 @@
+.language {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  border: 1px solid var(--clr-primary);
+  padding: 0.5rem 1rem;
+  position: relative;
+}
+
+.language img {
+  width: 2.5rem;
+}
+
+.dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  border: 1px solid var(--clr-primary);
+  border-top: none;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.dropdown div {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.dropdown div:hover {
+  background-color: var(--clr-primary);
+}

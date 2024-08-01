@@ -1,0 +1,76 @@
+.about {
+  display: flex;
+  margin-top: 5rem;
+  gap: 4rem;
+}
+
+.rightSide {
+  flex: 2;
+}
+
+.rightSide h1 {
+  font-size: var(--fs-sub-title);
+  line-height: 1.5;
+  margin-bottom: 3rem;
+  color: #fff;
+}
+.rightSide p {
+  margin-bottom: 3rem;
+  line-height: 2;
+}
+
+.leftSide {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.badgeBox h3 {
+  margin-bottom: 1rem;
+}
+
+.imgBox {
+  width: 30rem;
+  height: 30rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.imgBox img {
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+
+.btnBox {
+  display: flex;
+  width: 100%;
+}
+
+.btnBox .downloadBtn {
+  width: 100%;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+@media only screen and (max-width: 1300px) {
+  .rightSide {
+    flex: 3;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .about {
+    flex-direction: column;
+  }
+  .leftSide {
+    padding-bottom: 4rem;
+    border-bottom: 1px solid #444;
+  }
+}

@@ -1,0 +1,9 @@
+.navMenu li a {
+  font-size: 3rem;
+  color: #000;
+  transition: all 0.3s;
+}
+
+.navMenu li:hover a {
+  color: var(--clr-primary);
+}

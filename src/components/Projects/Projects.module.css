@@ -1,0 +1,12 @@
+.projects h2 {
+  margin-bottom: 5rem;
+  color: #fff;
+}
+
+.projectList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  row-gap: 6rem;
+  justify-content: space-between;
+}

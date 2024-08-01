@@ -1,7 +1,9 @@
-import React from "react";
-
 function ErrorPage() {
-  return <div>ErrorPage</div>;
+  return (
+    <div style={{ textAlign: "center", marginTop: "10rem" }}>
+      Something went wrong! Please try again!
+    </div>
+  );
 }
 
 export default ErrorPage;

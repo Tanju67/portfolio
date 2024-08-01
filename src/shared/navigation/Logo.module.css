@@ -1,0 +1,12 @@
+.logo {
+  position: relative;
+}
+.logo img {
+  width: 6rem;
+}
+
+.splash {
+  left: 0;
+  top: 3.5rem;
+  position: absolute;
+}
