@@ -26,7 +26,14 @@ function ProjectDetail() {
       <div className={styles.detailBox}>
         <p>{project.detay[filter]}</p>
         {project.warning && (
-          <p className={styles.warning}>{project.warning[filter]}</p>
+          // <p className={styles.warning}>{project.warning[filter]}</p>
+          <>
+            {project.warning.map((pro, i) => (
+              <p className={styles.warning} key={i}>
+                {pro[filter]}
+              </p>
+            ))}
+          </>
         )}
         <p className={styles.stack}>
           <span>Stack</span> <span>{project.stack}</span>

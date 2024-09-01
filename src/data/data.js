@@ -17,12 +17,19 @@ export const projects = [
     githubLink: "https://github.com/Tanju67/react-burger-frontend",
     detay: {
       english:
-        "Online fast food ordering application built with React JS for the frontend and Express JS and Mongoose for the backend. After logging in, the user can order the food he wants from the menu created by the admin by adding it to his cart. Additionally, there is an admin dashboard in the application that can only be accessed with the admin login. After logging in, the admin can add a new menu, update or delete the existing menu using the dashboard. Likewise, the admin can add a new product to the menu, update or delete the existing product. Finally, the admin can see the orders placed by customers and update the status of the orders. I created a REST API for the backend of this application.",
+        "The Online Fast Food Ordering Application is built using React JS for the frontend and Express JS with Mongoose for the backend. Users can log in to view a menu created by the admin, add items to their cart, and place orders. The application also features an admin dashboard accessible only with admin credentials. Through this dashboard, admins can manage the menu by adding, updating, or deleting items, as well as manage individual products. Additionally, admins can view and update the status of customer orders. A REST API was developed to support the backend functionality of the application, enabling smooth interaction between the frontend and backend.",
       german:
-        "Online-Fastfood-Bestellanwendung, die mit React JS für das Frontend und Express JS und Mongoose für das Backend entwickelt wurde. Nach dem Einloggen kann der Benutzer das gewünschte Essen aus dem vom Administrator erstellten Menü bestellen, indem er es in seinen Warenkorb legt. Außerdem gibt es in der Anwendung ein Admin-Dashboard, auf das nur mit dem Admin-Login zugegriffen werden kann. Nach dem Einloggen kann der Administrator über das Dashboard ein neues Menü hinzufügen, ein bestehendes Menü aktualisieren oder löschen. Ebenso kann der Administrator ein neues Produkt zum Menü hinzufügen, ein bestehendes Produkt aktualisieren oder löschen. Schließlich kann der Administrator die von Kunden aufgegebenen Bestellungen einsehen und den Status der Bestellungen aktualisieren. Ich habe eine REST-API für das Backend dieser Anwendung erstellt.",
+        "Die Online-Fast-Food-Bestell-App wurde mit React JS für das Frontend und Express JS mit Mongoose für das Backend entwickelt. Nutzer können sich anmelden, das vom Administrator erstellte Menü einsehen, Artikel in den Warenkorb legen und Bestellungen aufgeben. Die Anwendung bietet auch ein Admin-Dashboard, das nur mit Administrator-Anmeldeinformationen zugänglich ist. Über dieses Dashboard können Administratoren das Menü verwalten, indem sie neue Menüeinträge hinzufügen, bestehende aktualisieren oder löschen, sowie einzelne Produkte innerhalb des Menüs verwalten. Zusätzlich können Administratoren die Bestellungen der Kunden einsehen und deren Status aktualisieren. Für das Backend wurde eine REST-API entwickelt, um eine nahtlose Kommunikation zwischen Frontend und Backend zu ermöglichen.",
     },
 
-    warning: null,
+    warning: [
+      {
+        english:
+          "⛔ I am currently using the free tier of Render.com to host this project. As a result, it may take a few minutes to load data from the database on your first visit or first login. Please be patient while the site initializes. Thank you for your understanding! ",
+        german:
+          "⛔ Ich benutze derzeit das kostenlose Angebot von Render.com, um dieses Projekt zu hosten. Daher kann es einige Minuten dauern, bis die Daten aus der Datenbank bei Ihrem ersten Besuch oder bei Ihrer ersten Anmeldung geladen sind. Bitte haben Sie etwas Geduld, während die Seite initialisiert wird. Vielen Dank für Ihr Verständnis!",
+      },
+    ],
     stack:
       "React, Redux Tool Kit, React Router Dom, CSS Modules, Express, MongoDB, Cloudinary",
   },
@@ -34,16 +41,24 @@ export const projects = [
     githubLink: "https://github.com/Tanju67/react-anime-frontend",
     detay: {
       english:
-        "An anime application built with React JS for the frontend and Express JS and Mongoose for the backend by using Jikan REST API.The user can search for anime movies and series and filter the search based on certain values. The user can also see details about the anime, such as anime characters, voice actors, anime reviews, anime episodes and summaries. Additionally, after logging in, the user can add any anime they want to the watchlist. I created a REST API for the backend of this application.",
+        "This is an anime application developed with React JS for the frontend and Express JS with Mongoose for the backend, utilizing the Jikan REST API. Users can search for anime movies and series and apply filters to refine their search based on various criteria. The application provides detailed information about anime, including character profiles, voice actors, reviews, episodes, and summaries. Additionally, once logged in, users can add any anime they wish to their watchlist. For the backend, I created a custom REST API to support these features.",
       german:
-        "Eine Anime-Anwendung, die mit React JS für das Frontend und Express JS und Mongoose für das Backend unter Verwendung der Jikan REST API erstellt wurde. Der Benutzer kann nach Anime-Filmen und -Serien suchen und die Suche anhand bestimmter Werte filtern. Der Benutzer kann auch Details über den Anime sehen, wie z.B. Anime-Charaktere, Synchronsprecher, Anime-Rezensionen, Anime-Episoden und Zusammenfassungen. Außerdem kann der Benutzer nach der Anmeldung jeden Anime, den er möchte, zur Beobachtungsliste hinzufügen. Ich habe eine REST-API für das Backend dieser Anwendung erstellt.",
+        "Dies ist eine Anime-Anwendung, die mit React JS für das Frontend und Express JS mit Mongoose für das Backend entwickelt wurde und die Jikan REST API nutzt. Benutzer können nach Anime-Filmen und -Serien suchen und die Suche anhand verschiedener Kriterien filtern. Die Anwendung bietet detaillierte Informationen über Anime, einschließlich Charakterprofile, Synchronsprecher, Bewertungen, Episoden und Zusammenfassungen. Zusätzlich können Benutzer nach der Anmeldung beliebige Anime zu ihrer Watchlist hinzufügen. Für das Backend habe ich eine benutzerdefinierte REST-API erstellt, um diese Funktionen zu unterstützen.",
     },
-    warning: {
-      english:
-        "⛔ Jikan API let me to send 3 request per second. Therefore please wait for at least 1 second or the page upload before refreshing the page or navigating other page.",
-      german:
-        "⛔ Die Jikan-API erlaubt es mir, 3 request pro Sekunde zu senden. Bitte warten Sie daher mindestens 1 Sekunde oder den Upload der Seite ab, bevor Sie die Seite aktualisieren oder zu einer anderen Seite navigieren.",
-    },
+    warning: [
+      {
+        english:
+          "⚠️ Jikan API let me to send 3 request per second. Therefore please wait for at least 1 second or the page upload before refreshing the page or navigating other page.",
+        german:
+          "⚠️ Die Jikan-API erlaubt es mir, 3 request pro Sekunde zu senden. Bitte warten Sie daher mindestens 1 Sekunde oder den Upload der Seite ab, bevor Sie die Seite aktualisieren oder zu einer anderen Seite navigieren.",
+      },
+      {
+        english:
+          "⛔ I am currently using the free tier of Render.com to host this project. As a result, it may take a few minutes to load data from the database on your first visit or first login. Please be patient while the site initializes. Thank you for your understanding! ",
+        german:
+          "⛔ Ich benutze derzeit das kostenlose Angebot von Render.com, um dieses Projekt zu hosten. Daher kann es einige Minuten dauern, bis die Daten aus der Datenbank bei Ihrem ersten Besuch oder bei Ihrer ersten Anmeldung geladen sind. Bitte haben Sie etwas Geduld, während die Seite initialisiert wird. Vielen Dank für Ihr Verständnis!",
+      },
+    ],
     stack:
       "React, Redux Tool Kit, React Router Dom, CSS Modules, Express, MongoDB",
   },
@@ -55,11 +70,18 @@ export const projects = [
     githubLink: "https://github.com/Tanju67/react-map-frontend",
     detay: {
       english:
-        "An map application built with React JS and Leaflet for the frontend and Express JS and Mongoose for the backend by using Restcountries REST API and Geoapify REST API.R-Map is an application where the user can plan their travel on the map. I created a REST API for the backend of this application.",
+        "R-Map is a map application built with React JS and Leaflet for the frontend and Express JS with Mongoose for the backend, using the Restcountries and Geoapify REST APIs. The application allows users to plan their travels on the map. I developed a custom REST API to support the backend functionality of this application.",
       german:
-        "Eine Kartenanwendung, die mit React JS und Leaflet für das Frontend und Express JS und Mongoose für das Backend unter Verwendung von Restcountries REST API und Geoapify REST API erstellt wurde. R-Map ist eine Anwendung, bei der der Benutzer seine Reise auf der Karte planen kann. Ich habe eine REST-API für das Backend dieser Anwendung erstellt.",
+        "R-Map ist eine Kartenanwendung, die mit React JS und Leaflet für das Frontend sowie Express JS und Mongoose für das Backend entwickelt wurde, wobei die Restcountries- und Geoapify-REST-APIs verwendet werden. Die Anwendung ermöglicht es den Benutzern, ihre Reisen auf der Karte zu planen. Für das Backend dieser Anwendung habe ich eine benutzerdefinierte REST-API erstellt.",
     },
-    warning: null,
+    warning: [
+      {
+        english:
+          "⛔ I am currently using the free tier of Render.com to host this project. As a result, it may take a few minutes to load data from the database on your first visit or first login. Please be patient while the site initializes. Thank you for your understanding! ",
+        german:
+          "⛔ Ich benutze derzeit das kostenlose Angebot von Render.com, um dieses Projekt zu hosten. Daher kann es einige Minuten dauern, bis die Daten aus der Datenbank bei Ihrem ersten Besuch oder bei Ihrer ersten Anmeldung geladen sind. Bitte haben Sie etwas Geduld, während die Seite initialisiert wird. Vielen Dank für Ihr Verständnis!",
+      },
+    ],
     stack:
       "React, Framer Motion, React Router Dom, CSS Modules, Express, MongoDB, React Leaflet",
   },
@@ -71,11 +93,18 @@ export const projects = [
     githubLink: "https://github.com/Tanju67/React-Recipe-frontend",
     detay: {
       english:
-        "An recipe application built with React JS for the frontend and Express JS and Mongoose for the backend by using spoonacular REST API.The user can search for recipe and filter the search based on certain values. The user can also see details about the recipe, such as recipe summary, ingredients, equipments, instructions and similar recipes. Additionally, after logging in, the user can add the favorite recipe to the her/his recipe list by clicking heart icon. I created a REST API for the backend of this application.",
+        "Recipe App is built with React JS for the frontend and Express JS with Mongoose for the backend, utilizing the Spoonacular REST API. Users can search for recipes and filter results based on various criteria. The application provides detailed information about each recipe, including the recipe summary, ingredients, equipment, instructions, and similar recipes. Additionally, after logging in, users can add their favorite recipes to their personal recipe list by clicking the heart icon. I developed a custom REST API to support the backend functionality of this application.",
       german:
-        "Eine Rezeptanwendung, die mit React JS für das Frontend und Express JS und Mongoose für das Backend unter Verwendung von spoonacular REST API erstellt wurde. Der Benutzer kann nach Rezepten suchen und die Suche anhand bestimmter Werte filtern. Der Benutzer kann auch Details über das Rezept sehen, wie z.B. die Rezeptzusammenfassung, Zutaten, Geräte, Anweisungen und ähnliche Rezepte. Außerdem kann der Benutzer nach der Anmeldung sein Lieblingsrezept zu seiner Rezeptliste hinzufügen, indem er auf das Herzsymbol klickt. Ich habe eine REST-API für das Backend dieser Anwendung erstellt.",
+        "Recipe App wurde mit React JS für das Frontend und Express JS mit Mongoose für das Backend entwickelt, unter Verwendung der Spoonacular-REST-API. Benutzer können nach Rezepten suchen und die Ergebnisse nach verschiedenen Kriterien filtern. Die Anwendung bietet detaillierte Informationen zu jedem Rezept, einschließlich der Rezeptzusammenfassung, Zutaten, Ausrüstung, Anweisungen und ähnlichen Rezepten. Zusätzlich können Benutzer nach der Anmeldung ihre Lieblingsrezepte zu ihrer persönlichen Rezeptliste hinzufügen, indem sie auf das Herzsymbol klicken. Für das Backend dieser Anwendung habe ich eine benutzerdefinierte REST-API entwickelt.",
     },
-    warning: null,
+    warning: [
+      {
+        english:
+          "⛔ I am currently using the free tier of Render.com to host this project. As a result, it may take a few minutes to load data from the database on your first visit or first login. Please be patient while the site initializes. Thank you for your understanding! ",
+        german:
+          "⛔ Ich benutze derzeit das kostenlose Angebot von Render.com, um dieses Projekt zu hosten. Daher kann es einige Minuten dauern, bis die Daten aus der Datenbank bei Ihrem ersten Besuch oder bei Ihrer ersten Anmeldung geladen sind. Bitte haben Sie etwas Geduld, während die Seite initialisiert wird. Vielen Dank für Ihr Verständnis!",
+      },
+    ],
     stack: "React, React Router Dom, CSS Modules, Express, MongoDB",
   },
   {
@@ -86,16 +115,24 @@ export const projects = [
     githubLink: "https://github.com/Tanju67/react-games-frontend",
     detay: {
       english:
-        "An game application built with React JS for the frontend and Express JS and Mongoose for the backend.I made this application in order to practice my useContext and useReducer knowledge. I created a REST API for the backend of this application. First game is the Pig Game. Jonas Schmedtmann made a pig game in his javascript course on Udemy. Instead of rewriting the codes by making the same game, I made my own version by changing the game rules and the number of players. The user can choose the number of players between 2 and 6. The game for two players has the same rules as the classic pig game, but I wrote the codes so that the game rules for 3 or more players are slightly different. You can find the game rules in the game. Second game is a classic guess game.The player tries to guess the secret number between 1 and 20. If you guess correctly at the earliest, your score will be higher. The player's highest score is saved in the database. I added animation to make the game a little more fun. Have fun with the games.",
+        "Game App is developed with React JS for the frontend and Express JS with Mongoose for the backend. I created this application to practice my knowledge of useContext and useReducer. A custom REST API supports the backend functionality of this app. The first game is the Pig Game. Inspired by Jonas Schmedtmann's pig game from his JavaScript course on Udemy, I created my own version by modifying the game rules and the number of players. Users can choose between 2 and 6 players. For two players, the game follows the classic rules, but I adjusted the rules for 3 or more players to add variety. The game rules are explained within the app. The second game is a classic Guessing Game. Players try to guess a secret number between 1 and 20, with a higher score awarded for quicker correct guesses. The highest score achieved by each player is saved in the database. I also added animations to make the game more engaging. Have fun playing the games!",
       german:
-        "Eine Spielanwendung, die mit React JS für das Frontend und Express JS und Mongoose für das Backend gebaut wurde. Ich habe diese Anwendung erstellt, um meine Kenntnisse über useContext und useReducer zu üben. Ich habe eine REST-API für das Backend dieser Anwendung erstellt. Das erste Spiel ist das Pig Game. Jonas Schmedtmann hat in seinem Javascript-Kurs auf Udemy ein Schweinespiel erstellt. Anstatt die Codes neu zu schreiben und das gleiche Spiel zu machen, habe ich meine eigene Version gemacht, indem ich die Spielregeln und die Anzahl der Spieler geändert habe. Der Benutzer kann die Anzahl der Spieler zwischen 2 und 6 wählen. Das Spiel für zwei Spieler hat die gleichen Regeln wie das klassische Schweinespiel, aber ich habe die Codes so geschrieben, dass die Spielregeln für 3 oder mehr Spieler etwas anders sind. Die Spielregeln findest du im Spiel selbst. Das zweite Spiel ist ein klassisches Ratespiel: Der Spieler versucht, die geheime Zahl zwischen 1 und 20 zu erraten. Wer die Zahl am frühesten richtig errät, bekommt mehr Punkte. Die höchste Punktzahl des Spielers wird in der Datenbank gespeichert. Ich habe Animationen hinzugefügt, um das Spiel ein wenig lustiger zu machen. Viel Spaß mit den Spielen.",
+        "Game App wurde mit React JS für das Frontend und Express JS mit Mongoose für das Backend entwickelt. Diese Anwendung habe ich erstellt, um meine Kenntnisse in useContext und useReducer zu üben. Eine benutzerdefinierte REST-API unterstützt die Backend-Funktionalität dieser App. Das erste Spiel ist das Pig Game. Inspiriert von Jonas Schmedtmanns Pig Game aus seinem JavaScript-Kurs auf Udemy habe ich meine eigene Version erstellt, indem ich die Spielregeln und die Anzahl der Spieler geändert habe. Die Benutzer können zwischen 2 und 6 Spielern wählen. Bei zwei Spielern folgen die Regeln dem klassischen Pig Game, aber ich habe die Regeln für 3 oder mehr Spieler leicht angepasst, um Abwechslung zu bieten. Die Spielregeln sind in der App erklärt. Das zweite Spiel ist ein klassisches Ratespiel. Die Spieler versuchen, eine geheime Zahl zwischen 1 und 20 zu erraten. Je schneller die richtige Antwort gegeben wird, desto höher ist die Punktzahl. Die höchste Punktzahl eines Spielers wird in der Datenbank gespeichert. Außerdem habe ich Animationen hinzugefügt, um das Spiel etwas unterhaltsamer zu gestalten. Viel Spaß beim Spielen!",
     },
-    warning: {
-      english:
-        "⚠️ I’m not expecting the use case for smaller screens, such as mobile devices, so please use this app on your laptop or tablet.",
-      german:
-        "⚠️ Ich gehe nicht davon aus, dass die Anwendung für kleinere Bildschirme, wie z. B. mobile Geräte, geeignet ist. Bitte verwenden Sie die App daher auf Ihrem Laptop oder Tablet.",
-    },
+    warning: [
+      {
+        english:
+          "⚠️ I’m not expecting the use case for smaller screens, such as mobile devices, so please use this app on your laptop or tablet.",
+        german:
+          "⚠️ Ich gehe nicht davon aus, dass die Anwendung für kleinere Bildschirme, wie z. B. mobile Geräte, geeignet ist. Bitte verwenden Sie die App daher auf Ihrem Laptop oder Tablet.",
+      },
+      {
+        english:
+          "⛔ I am currently using the free tier of Render.com to host this project. As a result, it may take a few minutes to load data from the database on your first visit or first login. Please be patient while the site initializes. Thank you for your understanding! ",
+        german:
+          "⛔ Ich benutze derzeit das kostenlose Angebot von Render.com, um dieses Projekt zu hosten. Daher kann es einige Minuten dauern, bis die Daten aus der Datenbank bei Ihrem ersten Besuch oder bei Ihrer ersten Anmeldung geladen sind. Bitte haben Sie etwas Geduld, während die Seite initialisiert wird. Vielen Dank für Ihr Verständnis!",
+      },
+    ],
     stack: "React, React Router Dom, CSS Modules, Express, MongoDB",
   },
   {
@@ -106,11 +143,18 @@ export const projects = [
     githubLink: "https://github.com/Tanju67/react-movie-frontend",
     detay: {
       english:
-        "A movie application built with React JS for the frontend and Express JS and Mongoose for the backend.The user can search for movies. The user can also see details about the movie, such as actors and summaries. Additionally, after logging in, the user can add any movie they want to the watchlist and write a review for movies. I created a REST API for the backend of this application.",
+        "Movie App is built with React JS for the frontend and Express JS with Mongoose for the backend. Users can search for movies and view detailed information, including actors and summaries. After logging in, users can add movies to their watchlist and write reviews. I developed a custom REST API to handle the backend functionality of this application.",
       german:
-        "Eine Filmanwendung, die mit React JS für das Frontend und Express JS und Mongoose für das Backend erstellt wurde. Der Benutzer kann nach Filmen suchen. Der Benutzer kann auch Details über den Film sehen, wie Schauspieler und Zusammenfassungen. Außerdem kann der Benutzer nach dem Einloggen jeden beliebigen Film zur Merkliste hinzufügen und eine Bewertung für Filme schreiben. Ich habe eine REST-API für das Backend dieser Anwendung erstellt.",
+        "Movie App wurde mit React JS für das Frontend und Express JS mit Mongoose für das Backend entwickelt. Benutzer können nach Filmen suchen und detaillierte Informationen einsehen, einschließlich der Schauspieler und Zusammenfassungen. Nach der Anmeldung können Benutzer Filme zu ihrer Watchlist hinzufügen und Bewertungen schreiben. Für das Backend dieser Anwendung habe ich eine benutzerdefinierte REST-API erstellt.",
     },
-    warning: null,
+    warning: [
+      {
+        english:
+          "⛔ I am currently using the free tier of Render.com to host this project. As a result, it may take a few minutes to load data from the database on your first visit or first login. Please be patient while the site initializes. Thank you for your understanding! ",
+        german:
+          "⛔ Ich benutze derzeit das kostenlose Angebot von Render.com, um dieses Projekt zu hosten. Daher kann es einige Minuten dauern, bis die Daten aus der Datenbank bei Ihrem ersten Besuch oder bei Ihrer ersten Anmeldung geladen sind. Bitte haben Sie etwas Geduld, während die Seite initialisiert wird. Vielen Dank für Ihr Verständnis!",
+      },
+    ],
     stack: "React, React Router Dom, CSS Modules, Express, MongoDB",
   },
   {
@@ -167,14 +211,14 @@ export const navData = {
 
 export const homeData = {
   title: {
-    english: "Literature lover, anime watcher, chess fan",
-    german: "Literaturliebhaber,  Anime-Gucker, Schachfan",
+    english: "Literature lover, anime fan, chess enthusiast",
+    german: "Literaturliebhaber, Anime-Fan, Schachbegeisterter",
   },
   text: {
     english:
-      "I'm Tanju, a passionate self-taught web developer based in Kaiserslautern, Germany. I have been learning web development intensively for two years and have been working on my own projects for six months.",
+      "I'm Tanju, a passionate self-taught web developer based in Kaiserslautern, Germany. I've dedicated myself to mastering web development and have been actively working on my own projects to refine my skills.",
     german:
-      "Ich bin Tanju, ein leidenschaftlicher autodidaktischer Webentwickler mit Wohnsitz in Kaiserslautern, Deutschland. Ich lerne seit zwei Jahren intensiv Webentwicklung und arbeite seit einem halben Jahr an eigenen Projekten.",
+      "Ich bin Tanju, ein leidenschaftlicher autodidaktischer Webentwickler aus Kaiserslautern, Deutschland. Ich habe mich der Webentwicklung verschrieben und arbeite aktiv an eigenen Projekten, um meine Fähigkeiten weiter zu verfeinern.",
   },
 };
 
@@ -188,33 +232,33 @@ export const projectPageData = {
 export const aboutPageData = {
   p1: {
     english:
-      "After 12 years as a petty officer in the Turkish Navy, I have made discipline, perseverance and determination my way of life. However, the desire to open a new page in my career led me to move to Germany and step into the world of software, which I have recently been intensely interested in.",
+      "Despite coming from a different background, my passion for software development drove me into this field. I specialize in modern web technologies and have strong skills in HTML, CSS, JavaScript, React, Node.js, and MongoDB.",
     german:
-      "Nach 12 Jahren als Unteroffizier in der türkischen Marine habe ich Disziplin, Ausdauer und Entschlossenheit zu meiner Lebensweise gemacht. Der Wunsch, eine neue Seite in meiner Karriere aufzuschlagen, hat mich jedoch dazu veranlasst, nach Deutschland zu ziehen und in die Welt der Software einzusteigen, für die ich mich in letzter Zeit intensiv interessiert habe.",
+      "Trotz meines unterschiedlichen Hintergrunds hat mich meine Leidenschaft für die Softwareentwicklung in dieses Feld geführt. Ich spezialisiere mich auf moderne Webtechnologien und habe starke Fähigkeiten in HTML, CSS, JavaScript, React, Node.js und MongoDB.",
   },
   p2: {
     english:
-      "Although I had no background in programming, my passion for the field drove me to learn with determination. In the last two years, I have learnt programming myself, using many great Udemy courses and watching videos on YouTube. In the last six months, I have been implementing my own projects and I must admit that it is hard to describe the happiness that comes with the completion of each project. ",
+      "Over the past two years, I’ve taught myself programming through Udemy courses and YouTube tutorials. I actively use documentation and tackle problems by researching solutions on Google, which has greatly enhanced my learning process. In the past six months, I’ve been working on my own projects, and I find immense satisfaction in overcoming challenges and completing each one. ",
     german:
-      "Obwohl ich keine Vorkenntnisse in der Programmierung hatte, trieb mich meine Leidenschaft für diesen Bereich dazu, entschlossen zu lernen. In den letzten zwei Jahren habe ich mir das Programmieren selbst beigebracht, indem ich viele tolle Udemy-Kurse genutzt und Videos auf YouTube angeschaut habe. In den letzten sechs Monaten habe ich meine eigenen Projekte umgesetzt, und ich muss zugeben, dass es schwer ist, das Glücksgefühl zu beschreiben, das mit der Fertigstellung eines jeden Projekts einhergeht.",
+      "In den letzten zwei Jahren habe ich mir Programmieren selbst beigebracht, indem ich Udemy-Kurse und YouTube-Tutorials genutzt habe. Ich nutze aktiv Dokumentationen und suche bei Problemen Lösungen über Google, was meinen Lernprozess erheblich verbessert hat. In den letzten sechs Monaten habe ich an meinen eigenen Projekten gearbeitet und empfinde große Zufriedenheit, wenn ich Herausforderungen überwinde und jedes Projekt abschließe.",
   },
   p3: {
     english:
-      "I am hardworking, determined and disciplined. I have good communication with people. I am always eager to learn more and I work hard to realise this. After learning HTML, CSS and Javascript, I learnt React for frontend and Nodejs and MongoDB for backend. I am currently learning Typescript. My plan for next year is to learn Java and SQL for backend.",
+      "I focus on creating innovative solutions, engaging web design, performance optimization, responsive design, and improving user experience. I’m dedicated, friendly, and a strong team player with excellent problem-solving skills. Staying up-to-date with the latest technologies is a priority for me to ensure high-quality code. I’m currently learning TypeScript and plan to expand my skills with Java and SQL for backend development next year.",
     german:
-      "Ich bin fleißig, entschlossen und diszipliniert. Ich habe eine gute Kommunikation mit Menschen. Ich bin immer begierig, mehr zu lernen und arbeite hart daran, dies zu verwirklichen. Nachdem ich HTML, CSS und Javascript gelernt habe, habe ich React für das Frontend und Nodejs und MongoDB für das Backend gelernt. Derzeit lerne ich Typescript. Mein Plan für das nächste Jahr ist es, Java und SQL für das Backend zu lernen.",
+      "Ich konzentriere mich auf die Entwicklung innovativer Lösungen, ansprechendes Webdesign, Leistungsoptimierung, responsives Design und die Verbesserung der Benutzererfahrung. Ich bin engagiert, freundlich und ein starker Teamplayer mit ausgezeichneten Problemlösungsfähigkeiten. Es ist mir wichtig, immer auf dem neuesten Stand der Technologien zu bleiben, um hochwertigen Code zu liefern. Derzeit lerne ich TypeScript und plane, meine Fähigkeiten im nächsten Jahr mit Java und SQL für die Backend-Entwicklung zu erweitern.",
   },
 
   p4: {
     english:
-      "Please take a look at my personal projects and get in touch with me. I am looking forward to exploring new opportunities!",
+      "Please take a look at my personal projects and feel free to reach out. I’m excited to connect and explore new opportunities!",
     german:
-      "Bitte schauen Sie sich meine persönlichen Projekte an und nehmen Sie Kontakt mit mir auf. Ich freue mich darauf, neue Möglichkeiten zu erkunden!",
+      "Schauen Sie sich bitte meine persönlichen Projekte an und zögern Sie nicht, mich zu kontaktieren. Ich freue mich darauf, neue Möglichkeiten zu erkunden und in Kontakt zu treten!",
   },
 
   title: {
-    english: `I'm Tanju, a self-taught web developer who is currently living in Germany.`,
+    english: `I'm Tanju, a Passionate Self-Taught Web Developer in Germany`,
     german:
-      "Ich bin Tanju, ein autodidaktischer Webentwickler, der derzeit in Deutschland lebt.",
+      "Ich bin Tanju, ein leidenschaftlicher autodidaktischer Webentwickler in Deutschland.",
   },
 };
