@@ -59,8 +59,17 @@ function About() {
               alt="Mongoose"
             />
             <img
-              src="https://img.shields.io/badge/-React_Router-orange?style=flat-square&labelColor=black&logo=reactrouter&logoColor=white"
-              alt="Router"
+              src="https://img.shields.io/badge/-React_Router-F44250?style=flat-square&labelColor=black&logo=reactrouter&logoColor=white"
+              alt="React Router"
+            />
+
+            <img
+              src="https://img.shields.io/badge/-Next.js-black?style=flat-square&logo=next.js&logoColor=white"
+              alt="Next.js"
+            />
+            <img
+              src="https://img.shields.io/badge/-Tailwind_CSS-06B6D4?style=flat-square&labelColor=black&logo=tailwind-css&logoColor=white"
+              alt="Tailwind CSS"
             />
           </div>
         </div>

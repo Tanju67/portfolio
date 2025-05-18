@@ -7,10 +7,15 @@ import movie from "../assets/movie.png";
 import vegi from "../assets/cuisine.png";
 import task from "../assets/task-manager.png";
 import trip from "../assets/trip.png";
+import fotoVoyage from "../assets/fotoVoyage.jpg";
+import woofWall from "../assets/woofWall.jpg";
+import vistaVault from "../assets/vistaVault.jpg";
 
 export const projects = [
   {
     id: "p1",
+    category: "fullstack",
+    subCategory: "mern",
     title: "R-Burger",
     image: burger,
     websiteLink: "https://r-burger-restaurant-aagc.onrender.com",
@@ -36,6 +41,8 @@ export const projects = [
   {
     id: "p2",
     title: "R-Anime",
+    category: "fullstack",
+    subCategory: "mern",
     image: anime,
     websiteLink: "https://r-anime.onrender.com",
     githubLink: "https://github.com/Tanju67/react-anime-frontend",
@@ -65,6 +72,8 @@ export const projects = [
   {
     id: "p3",
     title: "R-Map",
+    category: "fullstack",
+    subCategory: "mern",
     image: map,
     websiteLink: "https://r-map.onrender.com",
     githubLink: "https://github.com/Tanju67/react-map-frontend",
@@ -88,6 +97,8 @@ export const projects = [
   {
     id: "p4",
     title: "R-Recipe",
+    category: "fullstack",
+    subCategory: "mern",
     image: recipe,
     websiteLink: "https://r-recipe.onrender.com",
     githubLink: "https://github.com/Tanju67/React-Recipe-frontend",
@@ -110,6 +121,8 @@ export const projects = [
   {
     id: "p5",
     title: "R-Games",
+    category: "fullstack",
+    subCategory: "mern",
     image: game,
     websiteLink: "https://r-games.onrender.com",
     githubLink: "https://github.com/Tanju67/react-games-frontend",
@@ -138,6 +151,8 @@ export const projects = [
   {
     id: "p6",
     title: "R-Movie",
+    category: "fullstack",
+    subCategory: "mern",
     image: movie,
     websiteLink: "https://r-movie.onrender.com",
     githubLink: "https://github.com/Tanju67/react-movie-frontend",
@@ -160,6 +175,8 @@ export const projects = [
   {
     id: "p7",
     title: "Vegi-Vega-Cuisine",
+    category: "frontend",
+    subCategory: "static",
     image: vegi,
     websiteLink: "https://vegi-vaga-cuisine.onrender.com",
     githubLink: "https://github.com/Tanju67/vegi-vaga-cuisine",
@@ -175,6 +192,8 @@ export const projects = [
   {
     id: "p8",
     title: "Task Manager",
+    category: "fullstack",
+    subCategory: "mern",
     image: task,
     websiteLink: null,
     githubLink: "https://github.com/Tanju67/Task-Manager",
@@ -190,6 +209,8 @@ export const projects = [
   {
     id: "p9",
     title: "Trip Share",
+    category: "fullstack",
+    subCategory: "mern",
     image: trip,
     websiteLink: null,
     githubLink: "https://github.com/Tanju67/First-mern-project",
@@ -201,6 +222,81 @@ export const projects = [
     },
     warning: null,
     stack: "React, React Router Dom, CSS Modules, Express, MongoDB",
+  },
+  {
+    id: "p10",
+    category: "fullstack",
+    subCategory: "nextjs",
+    title: "Foto Voyage",
+    image: fotoVoyage,
+    websiteLink: "https://foto-voyage.onrender.com/",
+    githubLink: "https://github.com/Tanju67/foto-voyage",
+    detay: {
+      english:
+        "Foto Voyage is a full-stack travel diary platform where users can register with email/password or log in with Google authentication. After logging in, users can share photos of places they’ve visited along with related descriptions. Other users can view these shared posts. Users can edit or delete their own posts and update their profile picture. The application uses Next.js for the frontend and backend API routes, MongoDB for the database, and Cloudinary for image storage.",
+      german:
+        "Foto Voyage ist eine Full-Stack-Reisetagebuch-Plattform, auf der sich Nutzer entweder mit E-Mail und Passwort registrieren oder mit Google anmelden können. Nach dem Login können Nutzer Fotos von besuchten Orten samt Beschreibung teilen. Andere Nutzer können diese Beiträge sehen. Eigene Beiträge können bearbeitet oder gelöscht werden, ebenso kann das Profilbild aktualisiert werden. Die Anwendung verwendet Next.js für das Frontend und die API-Routen, MongoDB als Datenbank und Cloudinary für die Bildspeicherung.",
+    },
+    warning: [
+      {
+        english:
+          "⛔ This project might experience a short delay during the first load if hosted on a free platform. Please be patient while the content loads.",
+        german:
+          "⛔ Dieses Projekt kann beim ersten Laden, wenn es auf einer kostenlosen Plattform gehostet wird, eine kurze Verzögerung aufweisen. Bitte haben Sie etwas Geduld, während die Inhalte geladen werden.",
+      },
+    ],
+    stack:
+      "Next.js, React, NextAuth, MongoDB, Mongoose, Cloudinary, Tailwind CSS, Multer, bcryptjs",
+  },
+  {
+    id: "p11",
+    category: "frontend",
+    subCategory: "react",
+    title: "Woof Wall",
+    image: woofWall, // Projenin görseli için uygun değişken ya da URL
+    websiteLink: "https://woof-wall.onrender.com/", // Canlı site varsa buraya ekle
+    githubLink: "https://github.com/Tanju67/woof-wall", // GitHub repo linki
+    detay: {
+      english:
+        "Woof Wall is a responsive React application that fetches dog images from a public API based on breed and category. Users can explore and view various dog breeds through a clean and intuitive UI. The app features pagination for browsing and responsive design for seamless experience across devices.",
+      german:
+        "Woof Wall ist eine responsive React-Anwendung, die Hundefotos über eine öffentliche API basierend auf Rasse und Kategorie abruft. Nutzer können verschiedene Hunderassen durch eine benutzerfreundliche Oberfläche erkunden und ansehen. Die App verfügt über eine Seitennummerierung und ein responsives Design für eine optimale Darstellung auf allen Geräten.",
+    },
+    warning: [
+      {
+        english:
+          "🐶 The app depends on a free third-party API, so response times may vary depending on the server status.",
+        german:
+          "🐶 Die Anwendung nutzt eine kostenlose Drittanbieter-API. Die Antwortzeiten können je nach Serverstatus variieren.",
+      },
+    ],
+    stack:
+      "React, React Router DOM, React Icons, React Paginate, React Spinners, Vite",
+  },
+  {
+    id: "p12",
+    category: "frontend",
+    subCategory: "static",
+    title: "Vista Vault",
+    image: vistaVault, // Proje görselinin import edildiği değişken veya direkt URL
+    websiteLink: "https://vista-vault.onrender.com/", // Canlı demo linki (varsa)
+    githubLink: "https://github.com/Tanju67/vista-vault", // GitHub repo linki
+    detay: {
+      english:
+        "Vista Vault is a static website built with React and Tailwind CSS, created to enhance my frontend styling skills. It showcases modern layout techniques, smooth animations, and responsive design using Tailwind utility classes. The project focuses on design, layout structuring, and animation principles using Framer Motion.",
+      german:
+        "Vista Vault ist eine statische Website, die mit React und Tailwind CSS entwickelt wurde, um meine Fähigkeiten im Bereich Frontend-Design zu verbessern. Sie zeigt moderne Layout-Techniken, sanfte Animationen und ein responsives Design unter Verwendung von Tailwind Utility-Klassen. Der Schwerpunkt des Projekts liegt auf Gestaltung, Layout-Strukturierung und Animationen mithilfe von Framer Motion.",
+    },
+    warning: [
+      {
+        english:
+          "ℹ️ This is a static project and does not include backend functionality. It serves as a visual and design-oriented showcase.",
+        german:
+          "ℹ️ Dies ist ein statisches Projekt ohne Backend-Funktionalität. Es dient als visuelle und designorientierte Demonstration.",
+      },
+    ],
+    stack:
+      "React, Tailwind CSS, Framer Motion, React Router DOM, React Icons, Vite",
   },
 ];
 

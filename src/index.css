@@ -53,6 +53,7 @@ a {
 .rootLayout main {
   flex: 1;
   padding: 4rem 12rem;
+  min-height: 80vh;
 }
 
 @media only screen and (max-width: 1500px) {

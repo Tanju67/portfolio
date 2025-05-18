@@ -1,0 +1,17 @@
+.projectList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  row-gap: 6rem;
+  justify-content: start;
+  margin-bottom: 5rem;
+}
+.title {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.category {
+  color: var(--clr-primary);
+  margin-bottom: 2rem;
+}
