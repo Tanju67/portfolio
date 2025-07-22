@@ -10,6 +10,7 @@ import trip from "../assets/trip.png";
 import fotoVoyage from "../assets/fotoVoyage.jpg";
 import woofWall from "../assets/woofWall.jpg";
 import vistaVault from "../assets/vistaVault.jpg";
+import crypture from "../assets/crypture.png";
 
 export const projects = [
   {
@@ -287,6 +288,7 @@ export const projects = [
       german:
         "Vista Vault ist eine statische Website, die mit React und Tailwind CSS entwickelt wurde, um meine Fähigkeiten im Bereich Frontend-Design zu verbessern. Sie zeigt moderne Layout-Techniken, sanfte Animationen und ein responsives Design unter Verwendung von Tailwind Utility-Klassen. Der Schwerpunkt des Projekts liegt auf Gestaltung, Layout-Strukturierung und Animationen mithilfe von Framer Motion.",
     },
+
     warning: [
       {
         english:
@@ -297,6 +299,30 @@ export const projects = [
     ],
     stack:
       "React, Tailwind CSS, Framer Motion, React Router DOM, React Icons, Vite",
+  },
+  {
+    id: "p13",
+    category: "frontend",
+    subCategory: "static",
+    title: "Crypture",
+    image: crypture,
+    websiteLink: "https://crypture-s1we.onrender.com",
+    githubLink: "https://github.com/Tanju67/crypto",
+    detay: {
+      english:
+        "Crypture is a static web project developed using React and Tailwind CSS. It was created to practice modern styling techniques and component-based layout structuring. The project showcases responsive UI components, animated sections, and smooth interaction effects using utility-first CSS and Framer Motion.",
+      german:
+        "Crypture ist ein statisches Webprojekt, das mit React und Tailwind CSS entwickelt wurde. Es wurde erstellt, um moderne Styling-Techniken und komponentenbasiertes Layout zu üben. Das Projekt zeigt responsive UI-Komponenten, animierte Abschnitte und sanfte Interaktionseffekte mit Utility-First-CSS und Framer Motion.",
+    },
+    warning: [
+      {
+        english:
+          "ℹ️ This is a static project without dynamic or backend functionalities. It focuses solely on frontend layout and animation practice.",
+        german:
+          "ℹ️ Dies ist ein statisches Projekt ohne dynamische oder Backend-Funktionalitäten. Es konzentriert sich ausschließlich auf Frontend-Layout und Animationsübungen.",
+      },
+    ],
+    stack: "React, Tailwind CSS, Framer Motion, React Icons, Vite",
   },
 ];
 
