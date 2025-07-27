@@ -11,6 +11,7 @@ import fotoVoyage from "../assets/fotoVoyage.jpg";
 import woofWall from "../assets/woofWall.jpg";
 import vistaVault from "../assets/vistaVault.jpg";
 import crypture from "../assets/crypture.png";
+import kingscut from "../assets/kingscut.jpg";
 
 export const projects = [
   {
@@ -320,6 +321,30 @@ export const projects = [
           "ℹ️ This is a static project without dynamic or backend functionalities. It focuses solely on frontend layout and animation practice.",
         german:
           "ℹ️ Dies ist ein statisches Projekt ohne dynamische oder Backend-Funktionalitäten. Es konzentriert sich ausschließlich auf Frontend-Layout und Animationsübungen.",
+      },
+    ],
+    stack: "React, Tailwind CSS, Framer Motion, React Icons, Vite",
+  },
+  {
+    id: "p14",
+    category: "frontend",
+    subCategory: "static",
+    title: "King's Cut",
+    image: kingscut,
+    websiteLink: "https://kingscut.onrender.com",
+    githubLink: "https://github.com/Tanju67/king_cut",
+    detay: {
+      english:
+        "King's Cut is a stylish static website created for a barbershop, developed using React and Tailwind CSS. It was designed to practice modern UI techniques, responsive layouts, and utility-first styling. The project features a sleek price list section, an elegant gallery to showcase styles, and a clean contact section for booking inquiries.",
+      german:
+        "King's Cut ist eine stilvolle statische Website für einen Friseursalon, entwickelt mit React und Tailwind CSS. Sie wurde erstellt, um moderne UI-Techniken, responsive Layouts und Utility-First-Styling zu üben. Das Projekt enthält eine übersichtliche Preisliste, eine elegante Galerie zur Präsentation von Styles und einen sauberen Kontaktbereich für Buchungsanfragen.",
+    },
+    warning: [
+      {
+        english:
+          "ℹ️ This project is intended for practice purposes only and does not include backend features such as online booking or database integration.",
+        german:
+          "ℹ️ Dieses Projekt dient ausschließlich Übungszwecken und enthält keine Backend-Funktionen wie Online-Buchung oder Datenbankintegration.",
       },
     ],
     stack: "React, Tailwind CSS, Framer Motion, React Icons, Vite",
