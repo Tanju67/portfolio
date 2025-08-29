@@ -12,6 +12,7 @@ import woofWall from "../assets/woofWall.jpg";
 import vistaVault from "../assets/vistaVault.jpg";
 import crypture from "../assets/crypture.png";
 import kingscut from "../assets/kingscut.jpg";
+import podflow from "../assets/podflow.jpg";
 
 export const projects = [
   {
@@ -348,6 +349,31 @@ export const projects = [
       },
     ],
     stack: "React, Tailwind CSS, Framer Motion, React Icons, Vite",
+  },
+  {
+    id: "p15",
+    category: "frontend",
+    subCategory: "static",
+    title: "PodFlow",
+    image: podflow,
+    websiteLink: "https://podflow-ufkv.onrender.com/",
+    githubLink: "https://github.com/Tanju67/podflow",
+    detay: {
+      english:
+        "PodFlow is a modern static website built for discovering and listening to podcasts. It was developed with React, Tailwind CSS, and Framer Motion, focusing on clean UI, responsive design, and smooth animations. The project showcases podcast categories, a dynamic slider, and an engaging landing page layout.",
+      german:
+        "PodFlow ist eine moderne statische Website, die für das Entdecken und Hören von Podcasts entwickelt wurde. Sie wurde mit React, Tailwind CSS und Framer Motion erstellt und legt den Fokus auf ein klares UI, responsives Design und flüssige Animationen. Das Projekt zeigt Podcast-Kategorien, einen dynamischen Slider und ein ansprechendes Landingpage-Layout.",
+    },
+    warning: [
+      {
+        english:
+          "ℹ️ This project is a frontend-only practice website and does not include backend features such as real audio streaming or user authentication.",
+        german:
+          "ℹ️ Dieses Projekt ist eine reine Frontend-Übungswebsite und enthält keine Backend-Funktionen wie echtes Audio-Streaming oder Benutzeranmeldung.",
+      },
+    ],
+    stack:
+      "React, Tailwind CSS, Framer Motion, React Icons, React Router, Vite",
   },
 ];
 
