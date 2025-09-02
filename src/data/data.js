@@ -13,6 +13,7 @@ import vistaVault from "../assets/vistaVault.jpg";
 import crypture from "../assets/crypture.png";
 import kingscut from "../assets/kingscut.jpg";
 import podflow from "../assets/podflow.jpg";
+import summitclub from "../assets/summitclub.jpg";
 
 export const projects = [
   {
@@ -374,6 +375,30 @@ export const projects = [
     ],
     stack:
       "React, Tailwind CSS, Framer Motion, React Icons, React Router, Vite",
+  },
+  {
+    id: "p16",
+    category: "frontend",
+    subCategory: "static",
+    title: "Summit Club",
+    image: summitclub,
+    websiteLink: "https://summitclub.onrender.com",
+    githubLink: "https://github.com/Tanju67/summit_club",
+    detay: {
+      english:
+        "Summit Club is a modern static website designed for an outdoor and adventure community. Built with React, Tailwind CSS, and Framer Motion, it focuses on a clean and engaging UI, responsive design, and smooth animations. The site features a dynamic hero section with video integration, event highlights, membership information, and a visually appealing landing page layout.",
+      german:
+        "Summit Club ist eine moderne statische Website, die für eine Outdoor- und Abenteuer-Community entwickelt wurde. Sie wurde mit React, Tailwind CSS und Framer Motion erstellt und legt den Fokus auf ein klares und ansprechendes UI, responsives Design und flüssige Animationen. Die Seite bietet einen dynamischen Hero-Bereich mit Videointegration, Event-Highlights, Mitgliederinformationen und ein visuell ansprechendes Landingpage-Layout.",
+    },
+    warning: [
+      {
+        english:
+          "ℹ️ This project is a frontend-only practice website and does not include backend features such as real membership management or event booking.",
+        german:
+          "ℹ️ Dieses Projekt ist eine reine Frontend-Übungswebsite und enthält keine Backend-Funktionen wie echte Mitgliederverwaltung oder Eventbuchung.",
+      },
+    ],
+    stack: "React, Tailwind CSS, Framer Motion, React Icons, Vite",
   },
 ];
 
